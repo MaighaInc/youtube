@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta information for character encoding and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title -->
+    <title>HTML Tables Page</title>
+
+    <!-- Internal CSS for table styling -->
+    <style>
+        table,
+        th,
+        td {
+            border-collapse: collapse;
+            /* Ensures table borders collapse into a single border */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- First table: Basic information table -->
+    <h2>Basic Information Table</h2>
+    <table border="1">
+        <!-- Table header row -->
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+        </tr>
+        <!-- Table data rows -->
+        <tr>
+            <td>John</td>
+            <td>30</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>Max</td>
+            <td>30</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>Elizabeth</td>
+            <td>30</td>
+            <td>New York</td>
+        </tr>
+    </table>
+
+    <!-- Second table: Fruits and their colors -->
+    <h2>Fruit Table</h2>
+
+    <!-- Demonstrating row and column merging -->
+    <table border="1">
+        <tr>
+            <!-- Merging two columns for the "Fruits" heading -->
+            <th colspan="2">Fruits</th>
+            <th>Colors</th>
+        </tr>
+        <tr>
+            <!-- Merging two rows for "Apple" -->
+            <td rowspan="2">Apple</td>
+            <td>Banana</td>
+            <td>Yellow</td>
+        </tr>
+        <tr>
+            <td>Grapes</td>
+            <td>Black</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
