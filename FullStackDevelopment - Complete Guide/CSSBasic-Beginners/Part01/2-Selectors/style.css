@@ -1,0 +1,33 @@
+/* Universal Seletor */
+*{
+    font-family:sans-serif;
+}
+
+/* Type selector */
+h2{
+    color:green;
+    background-color:beige;
+}
+
+/* Class selector */
+
+.note{
+    color:red;
+    font-size:20px;
+}
+
+/* id selector */
+#highlight{
+    text-align:center;
+    background-color:blue;
+    color:aliceblue;
+    border-radius:8px;
+}
+
+/* Group selector */
+
+p,div{
+    background-color:powderblue;
+    font-weight:bold;
+}
+

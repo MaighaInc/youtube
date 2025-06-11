@@ -1,0 +1,29 @@
+/* By using the color name */
+.color-name{
+    background-color:yellow;
+    color:red;
+    padding:10px;
+
+}
+
+/* Hex code */
+.hex-code{
+    background-color:#3649d9;
+    color:#cedbd9;
+    padding:10px;
+}
+
+/* By using the rgb values */
+
+.rgb{
+    background-color:rgb(194, 52, 201);
+    color:aliceblue;
+    padding:10px;
+}
+
+/* By using the rgba values */
+
+.rgba{
+    background-color:rgba(40,67,201,0.3);
+    padding:10px;
+}

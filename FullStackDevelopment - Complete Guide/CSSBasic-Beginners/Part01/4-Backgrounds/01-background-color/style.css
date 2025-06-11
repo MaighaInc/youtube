@@ -1,0 +1,10 @@
+/* body{
+    background-color: skyblue;
+} */
+
+
+
+/* Gradient color */
+body{
+    background:linear-gradient(to right, rgb(215, 95, 95), rgb(78, 178, 217), yellow)
+}

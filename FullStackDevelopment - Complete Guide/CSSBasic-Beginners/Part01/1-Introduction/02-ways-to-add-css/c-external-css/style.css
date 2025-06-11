@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(175, 195, 212);
+}
+
+h1{
+    color:crimson;
+    text-align:center;
+    font-size: 50px;
+}
+p{
+    color:green;
+    font-family:sans-serif;
+    border:1px solid blue;
+}
